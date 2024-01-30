@@ -1,0 +1,35 @@
+.footer {
+    padding: 4rem 0;
+
+    background-color: $accent-color-first;
+
+    color: $text-color-light;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__info{
+        display: flex;
+        gap: 10rem;
+    }
+
+    &__list {
+        font-size: 1.6rem;
+        font-weight: 500;
+
+        li {
+            margin-bottom: 1rem;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+            &:hover {
+                opacity: .8;
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+//base
+@import './base/reset';
+@import './base/vars';
+@import './base/base';
+
+//sections
+@import './sections/header';
+@import './sections/main';
+@import './sections/footer';
+
+//components
+@import './components/logo';
+@import './components/contacts';
+@import './components/titles';
+@import './components/buttons';
+@import './components/search-form';
+@import './components/result';

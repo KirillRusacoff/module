@@ -1,0 +1,36 @@
+.result {
+
+    display: none;
+
+    &--active {
+        display: block;
+    }
+
+    &__table {
+        font-size: 1.6rem;
+
+        text-align: center;
+
+        td {
+            padding: 1rem;
+
+            border: 1px solid #000;
+
+            .button {
+                padding: 0.5rem;
+                background-color: $accent-color-second;
+                color: $text-color-light;
+
+                transition: background-color .2s ease-in;
+
+                &:hover {
+                    background-color: #125f21;
+                }
+            }
+        }
+
+        &-header {
+            font-weight: 700;
+        }
+    }
+}

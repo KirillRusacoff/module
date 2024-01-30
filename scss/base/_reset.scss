@@ -1,0 +1,39 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li, ul, ol {
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+button {
+    font-size: inherit;
+    font-weight: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+input {
+    font-size: inherit;
+    font-weight: inherit;
+    text-align: inherit;
+    outline: none;
+}

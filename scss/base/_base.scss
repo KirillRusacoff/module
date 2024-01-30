@@ -1,0 +1,28 @@
+html {
+    height: 100%;
+
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    height: 100%;
+
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    line-height: normal;
+    color: $text-color-dark;
+}
+
+.container {
+    max-width: 142rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.blur {
+    position: relative;
+    padding: 2rem;
+}

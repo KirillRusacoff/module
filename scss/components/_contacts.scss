@@ -1,0 +1,35 @@
+.contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+
+    font-size: 1.5rem;
+    font-weight: 500;
+
+    a {
+        position: relative;
+
+        transition: opacity .2s ease-in;
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translate(-150%, -50%);
+
+            width: 2rem;
+            height: 2rem;
+
+            background: url('./../img/icons/phone.svg') center / contain no-repeat;
+        }
+
+        &:last-child::before{
+            background-image: url('./../img/icons/mail.svg');
+        }
+
+        &:hover {
+            opacity: .8;
+        }
+    }
+}

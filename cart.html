@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Module`s source - корзина</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <script src="./js/main.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapper">
+          <div class="logo">
+            <img src="./img/logo.png" alt="Логотип" />
+          </div>
+          <div class="header__contact">
+            <div class="contacts">
+              <a href="tel:+74992880426">+7(499)288-04-26</a>
+              <a href="tel:+79991241412 ">+7(999)-124-14-12</a>
+              <a href="mailto:order@modulesource.ru">order@modulesource.ru</a>
+            </div>
+            <div class="header__btns">
+              <button type="button" class="reg-btn">Вход</button>
+              <a href="index.html" class="reg-btn">На главную</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <div class="main__inner">
+          <div class="main__wrapper blur">
+            <div id="blur"></div>
+            <h2 class="title-1">КОРЗИНА</h2>
+            <table class="result__table" id="table">
+              <tr class="result__table-header">
+                <td>Наименование</td>
+                <td>Кол-во</td>
+                <td>Срок поставки</td>
+                <td>Цена</td>
+              </tr>
+              <tr>
+                <td>STM32F302R8T6</td>
+                <td>
+                  <input type="number" placeholder="Выброно: 10" />
+                </td>
+                <td>1-2 недели</td>
+                <td>1600 руб.</td>
+              </tr>
+              <tr>
+                <td>LM1117MP-3.3</td>
+                <td>
+                  <input type="number" placeholder="Выброно: 40" />
+                </td>
+                <td>3-4 недели</td>
+                <td>4000 руб.</td>
+              </tr>
+            </table>
+            <p style="margin-left: 400px; font-size: 2rem">
+              Итого к оплате:<span style="font-weight: 700">5600 руб.</span>
+            </p>
+            <table
+              class="result__table"
+              style="margin-right: 300px; margin-top: -30px"
+            >
+              <h2 style="font-size: 1.8rem; margin-right: 350px">
+                Заполните данные для доставки
+              </h2>
+              <tr>
+                <td>Город</td>
+                <td>
+                  <input type="text" placeholder="Введите город" />
+                </td>
+              </tr>
+              <tr>
+                <td>Улица</td>
+                <td>
+                  <input type="text" placeholder="Введите улицу" />
+                </td>
+              </tr>
+              <tr>
+                <td>Город</td>
+                <td>
+                  <input type="number" placeholder="Дом" />
+                </td>
+              </tr>
+              <tr>
+                <td>Квартира/Офис</td>
+                <td>
+                  <input type="text" placeholder="Квартира/Офис" />
+                </td>
+              </tr>
+            </table>
+
+            <div
+              class="summ"
+              style="
+                width: 70%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+              "
+            >
+              <div class="summ__time">
+                <p style="font-size: 1.8rem">
+                  Срок поставки:<span style="font-weight: 700">
+                    3-4 недели</span
+                  >
+                </p>
+              </div>
+              <div class="summ__price">
+                <p style="font-size: 1.8rem">
+                  Цена: <span style="font-weight: 700">5600 руб.</span>
+                </p>
+              </div>
+              <button
+                type="button"
+                class="summ__btn"
+                style="
+                  margin-right: 1rem;
+                  padding: 1rem 2rem;
+                  background-color: #b3b3b3;
+                  font-size: 2rem;
+                  color: white;
+                "
+              >
+                Пересчитать
+              </button>
+              <button
+                type="button"
+                class="summ__btn"
+                style="
+                  padding: 1rem 2rem;
+                  background-color: #61f761;
+                  font-size: 2rem;
+                  color: white;
+                "
+              >
+                Оформить
+              </button>
+            </div>
+          </div>
+          <div class="main__info" style="margin-top: 100px; font-size: 1.6rem">
+            <h2>
+              Чтобы оформить заказ необходимо
+              <button
+                type="button"
+                style="text-decoration: underline"
+              >
+                войти в систему
+              </button>
+            </h2>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <h1>ООО «Модуль Соурс»</h1>
+          <div class="footer__info">
+            <ul class="footer__list">
+              <li><a href="#!">О компании</a></li>
+              <li><a href="#!">Оформление заказа</a></li>
+              <li><a href="#!">Для поставщиков</a></li>
+              <li><a href="#!">Для получателей</a></li>
+            </ul>
+            <ul class="footer__list">
+              <li><a href="#!">Реквизиты</a></li>
+              <li><a href="#!">Отзывы</a></li>
+              <li><a href="#!">FAQ</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
